@@ -1,0 +1,48 @@
+body {
+  font-family: "Droid Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  background-image: linear-gradient(to right, #fff1eb 0%, #ace0f9 100%);
+}
+
+a {
+  color: #0076FF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0076FF;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  float: left;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  box-shadow: 0px 7px 14px 0px rgba(0,0,0,0.2);
+  border-radius: 40px;
+}
+
+.chat-bubble {
+  background-color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.1);
+  margin-left: 73px;
+  vertical-align: top;
+  padding: 1px 15px;
+}
+
+.pb {
+  padding-bottom: 5px;
+}
